@@ -1,0 +1,18 @@
+[
+  {
+    "hook": "0x0af57f62982d03066ef917acad87f771c06528ec",
+    "launcher": "0xd7e538e98a208fd19e46bc549ff4710c33664e18"
+  },
+  {
+    "hook": "0x15e5e7206c661a1e881f5cd33a94eaf2328fa8cc",
+    "launcher": "0xaa7a943666b72a305a53962dd5b28c5f9d8a37a7"
+  },
+  {
+    "hook": "0x48b8f6ad3a1b4aa477314c9a23035b8f84dde8cc",
+    "launcher": "0xd3f2cc1731b7fd17f28798835c2e02f0a1839a94"
+  },
+  {
+    "hook": "0x745d717620052a97a22deee2e5eba59583f3e0cc",
+    "launcher": "0x16cf6788b762ee8969744586ed16fc5705140dd7"
+  }
+]

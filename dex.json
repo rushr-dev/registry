@@ -1,0 +1,21 @@
+{
+  "v4": {
+    "poolManager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "positionManager": "0x58daec3116aae6d93017baaea7749052e8a04fa7",
+    "universalRouter": "0x8876789976decbfcbbbe364623c63652db8c0904",
+    "quoter": "0x8dc178efb8111bb0973dd9d722ebeff267c98f94"
+  },
+  "v3": {
+    "factories": [
+      "0x1f7d7550b1b028f7571e69a784071f0205fd2efa",
+      "0xe7fef2bc860b25bbdeb6f6ab96d88baaa77ddad7"
+    ]
+  },
+  "v2": {
+    "factories": [
+      "0x8bceaa40b9acdfaedf85adf4ff01f5ad6517937f",
+      "0x0d1ebb179cdbca88d74c923c4255cb2b17474afd"
+    ]
+  },
+  "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+}

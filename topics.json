@@ -1,0 +1,9 @@
+{
+  "liftLaunch": "0x6f0c466814ca3040318951d80aafb489060ae72ecdfc7cd1d5678ca5d8038c0e",
+  "liftDevBuy": "0x34b6bd41bb4087aa5e8294323c3f441554c538e0b5107fc056bd9ce45654083d",
+  "ponsLaunch": "0xdcacba5e347ae7abd91cb519eb877af8fa7774e347b85dd3ddcd24a2ba8cdf37",
+  "ponsBuy": "0xec36bf571f136799e8dc0b0b8bea4b04d8bd3d43de838aab0d5fc21d4cbfc455",
+  "ponsSell": "0x8113d738abdcb6b38357e9d53a54a7157861a09031b453651f0fe7fe151f59df",
+  "ponsGraduate": "0xf8d37a90738ae063b8b8058b66f5880cf3cf7ab0c5d4fa78219696591dfbfb67",
+  "transferWithScaledUI": "0x37e7f0db430edc9dd31bc66f25f8449353aa0818f503b906747dd8f286cd3802"
+}

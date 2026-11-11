@@ -1,0 +1,48 @@
+[
+  {
+    "id": "doppler",
+    "name": "Doppler (Orbofi and other frontends)",
+    "launcher": "0xeb7c034704ef8dcd2d32324c1545f62fb4ad0862",
+    "hooks": [
+      "0x4e3468951d49f2eea976ed0d6e75ffcb44a9a544"
+    ],
+    "trades": "v4-swap",
+    "notes": "Airlock emits Create(asset, numeraire, initializer, poolOrHook) and Migrate on graduation. Numeraire can be WETH, USDG or a stock token. Liquidity is a ladder of v4 positions (curve)."
+  },
+  {
+    "id": "pons",
+    "name": "PONS",
+    "launcher": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+    "hooks": [
+      "0xe5e702641ea86f4ae6cc3cdaed2b886f976be044"
+    ],
+    "trades": "pons-curve",
+    "notes": "Each token gets its own curve contract (ponsLaunch topic[2]); trades are ponsBuy/ponsSell from that curve. At ~4.2 ETH the curve emits ponsGraduate and liquidity moves to a v4 pool with the PONS v2 hook (migrator 0x7ed598bc…)."
+  },
+  {
+    "id": "liftfun",
+    "name": "lift.fun",
+    "launcher": "0xc739229dc490ee67f3472604f4addd57178489c6",
+    "hooks": [
+      "0x2c668601193e4a081dd82604785e436aff6a2acc"
+    ],
+    "trades": "v4-swap",
+    "notes": "Paired with WETH. Launch event carries name, symbol and metadata URI (api.lift.fun)."
+  },
+  {
+    "id": "vorta",
+    "name": "Vorta (single deployer bot)",
+    "launcher": "0xa24bcd15e71d46ea8c14adcad6eb2232f041105a",
+    "hooks": [
+      "0x177dff3c65266de4f22e57221944154628be28c4"
+    ],
+    "trades": "v4-swap",
+    "notes": "All launches from one deployer (0xd0f555a7…). Likely spam; flag as serial launcher."
+  },
+  {
+    "id": "uniswap-v4",
+    "name": "Uniswap v4 (manual / other hooks)",
+    "trades": "v4-swap",
+    "notes": "Pools with no hook or an unknown hook. Index only when one side is ETH/WETH/USDG and the other is a fresh token."
+  }
+]
